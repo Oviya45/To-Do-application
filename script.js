@@ -31,7 +31,7 @@ function addTask() {
         taskItem.appendChild(deleteBtn);
 
         document.getElementById('task-list').appendChild(taskItem);
-        taskInput.value = '';
+        taskInput.value = ''; // Clear the input field
     }
 }
 
